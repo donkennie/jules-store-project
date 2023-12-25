@@ -2,8 +2,8 @@ import {julesLogo} from '../assets/icons';
 
 const Nav = () => {
   return (
-    <header className='padding-x py-10'>
-        <nav className='flex justify-center space-x-1'>
+    <header className=''>
+        <nav className='flex justify-center space-x-1 pb-5'>
             <a href="/">
                 <img
                 src={julesLogo}

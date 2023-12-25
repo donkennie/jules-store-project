@@ -8,7 +8,7 @@ import {
 
 const App = () => {
   return(
-  <main className="relative">
+  <main className="relative padding-x p-8">
 
      <Nav/>
 
