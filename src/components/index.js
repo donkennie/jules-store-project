@@ -1,9 +1,11 @@
 import Button from './Button'
 import Nav from './Nav'
-import SectionBody from './SectionBody'
+import SectionBodyCard from './SectionBodyCard'
+import CategoriesCard from './CategoriesCard'
 
 export{
     Button,
     Nav,
-    SectionBody
+    SectionBodyCard,
+    CategoriesCard
 }
