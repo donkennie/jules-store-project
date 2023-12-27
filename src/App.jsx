@@ -1,14 +1,15 @@
-import { Nav, SectionBody } from "./components"
+import { Nav} from "./components"
 
 import {
   Hero,
   Footer,
-  Categories
+  Categories,
+  SectionBody
 } from "./sections"
 
 const App = () => {
   return(
-  <main className="relative padding-x p-8">
+  <main className="relative  p-8">
 
      <Nav/>
 
@@ -20,7 +21,7 @@ const App = () => {
       <Categories/>
      </section>
 
-     <section className="">
+     <section className="pt-5">
       <SectionBody/>
      </section>
 

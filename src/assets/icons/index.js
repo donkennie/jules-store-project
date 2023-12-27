@@ -1,7 +1,11 @@
 import julesLogo from './JulesLogo.png'
-import rightArrow from './rightArrow.svg'
+import rightSideArrow from './rightArrow.svg';
+import arrowLeft from './arrowLeft.svg';
+import arrowRight from './arrowRight.svg'
 
 export {
     julesLogo,
-    rightArrow
+    rightSideArrow,
+    arrowLeft,
+    arrowRight
 }
