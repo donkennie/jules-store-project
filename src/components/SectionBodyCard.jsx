@@ -1,4 +1,4 @@
-
+import {arrowSection} from "../assets/icons"
 
 const SectionBodyCard = ({imgURL, name, price}) => {
   return (
@@ -8,10 +8,20 @@ const SectionBodyCard = ({imgURL, name, price}) => {
         alt={name}
         className="w-[280px] h-280px"
         />
-        <div className="flex space-x-[4rem] content-start items-baseline text-white md:absolute bottom-[42px]">
-          <p className="">{name}</p> 
-           <p className="font-medium pb-9"> {price} </p>
-           {/* <p className="">{arrow}</p> */}
+        <div className="text-white absolute p-3 mt-[13rem]">
+
+          <p className=" font-light text-sm">{name}</p> 
+
+          <div className=" flex justify-between items-stretch">
+           <p className="font-bold pb-9"> {price} </p>
+
+           <img
+            src={arrowSection} 
+            alt="right arrow"
+            className="ml-2 text-slate-50 rounded-full w-5 h-5"
+            />
+           </div>
+           
         </div>
 
         </div>
