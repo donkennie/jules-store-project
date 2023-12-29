@@ -9,7 +9,7 @@ import {
 
 const App = () => {
   return(
-  <main className="relative  p-8">
+  <main className="relative p-8 ">
 
      <Nav/>
 
@@ -25,7 +25,7 @@ const App = () => {
       <SectionBody/>
      </section>
 
-     <section className="bg-pale-blue">
+     <section className="bg-pale-blue p-10 mt-[6rem] mb-[-32px] mx-[-32px]">
       <Footer/>
      </section>
   </main>

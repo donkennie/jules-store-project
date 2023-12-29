@@ -56,3 +56,13 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
 }
+
+.enlarge-animate{
+  transition: ease-in-out 150ms 300ms;
+  transform: translate(0, 0);
+}
+
+.enlarge-animate:hover{
+  transform: translateY(-2px) scale(1.1);
+}
+

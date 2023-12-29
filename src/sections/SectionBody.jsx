@@ -9,20 +9,45 @@ const SectionBody = () => {
             <div className="text-2xl font-palanquin font-bold">
                 Bubu Dresses
             </div>
-            <div className="flex ">
+            <div className="flex cursor-pointer">
             <img
                 src={arrowLeft} 
                 alt="arrow left"
-                width={800}
-                height={800}
-                className="ml-2 rounded-full w-5 h-5"
+                className="ml-2 rounded-full w-8 h-8"
             />
             <img
                 src={arrowRight} 
                 alt="arrow right"
-                width={800}
-                height={800}
-                className="ml-2 rounded-full w-5 h-5"
+                className="ml-2 rounded-full w-8 h-8"
+            />
+            </div>
+        </div>
+
+        <div className="mt-8 grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 sm:gap-4 gap-14">
+          {SectionBodies.map((category, index) => (
+              <SectionBodyCard 
+              key= {index}
+              imgURL= {category.imgURL}
+              name= {category.name}
+              price={category.price} 
+              />
+          ))}
+        </div>
+
+        <div className='flex flex-row justify-between items-center'>
+            <div className="text-2xl font-palanquin font-bold">
+            Men’s Two Pieces
+            </div>
+            <div className="flex cursor-pointer">
+            <img
+                src={arrowLeft} 
+                alt="arrow left"
+                className="ml-2 rounded-full w-8 h-8"
+            />
+            <img
+                src={arrowRight} 
+                alt="arrow right"
+                className="ml-2 rounded-full w-8 h-8"
             />
             </div>
         </div>
@@ -40,22 +65,18 @@ const SectionBody = () => {
 
         <div className='flex flex-row justify-between items-center'>
             <div className="text-2xl font-palanquin font-bold">
-                Bubu Dresses
+            Comfortable Classy Wear
             </div>
-            <div className="flex ">
+            <div className="flex cursor-pointer">
             <img
                 src={arrowLeft} 
                 alt="arrow left"
-                width={800}
-                height={800}
-                className="ml-2 rounded-full w-5 h-5"
+                className="ml-2 rounded-full w-8 h-8"
             />
             <img
                 src={arrowRight} 
                 alt="arrow right"
-                width={800}
-                height={800}
-                className="ml-2 rounded-full w-5 h-5"
+                className="ml-2 rounded-full w-8 h-8"
             />
             </div>
         </div>
@@ -73,22 +94,18 @@ const SectionBody = () => {
 
         <div className='flex flex-row justify-between items-center'>
             <div className="text-2xl font-palanquin font-bold">
-                Bubu Dresses
+            Two Pieces
             </div>
-            <div className="flex ">
+            <div className="flex cursor-pointer">
             <img
                 src={arrowLeft} 
                 alt="arrow left"
-                width={800}
-                height={800}
-                className="ml-2 rounded-full w-5 h-5"
+                className="ml-2 rounded-full w-8 h-8"
             />
             <img
                 src={arrowRight} 
                 alt="arrow right"
-                width={800}
-                height={800}
-                className="ml-2 rounded-full w-5 h-5"
+                className="ml-2 rounded-full w-8 h-8"
             />
             </div>
         </div>
@@ -106,22 +123,18 @@ const SectionBody = () => {
 
         <div className='flex flex-row justify-between items-center'>
             <div className="text-2xl font-palanquin font-bold">
-                Bubu Dresses
+            Flowing Gowns
             </div>
-            <div className="flex ">
+            <div className="flex cursor-pointer">
             <img
                 src={arrowLeft} 
                 alt="arrow left"
-                width={800}
-                height={800}
-                className="ml-2 rounded-full w-5 h-5"
+                className="ml-2 rounded-full w-8 h-8"
             />
             <img
                 src={arrowRight} 
                 alt="arrow right"
-                width={800}
-                height={800}
-                className="ml-2 rounded-full w-5 h-5"
+                className="ml-2 rounded-full w-8 h-8"
             />
             </div>
         </div>
@@ -139,22 +152,18 @@ const SectionBody = () => {
 
         <div className='flex flex-row justify-between items-center'>
             <div className="text-2xl font-palanquin font-bold">
-                Bubu Dresses
+            Two Piece of Ladies
             </div>
-            <div className="flex ">
+            <div className="flex cursor-pointer">
             <img
                 src={arrowLeft} 
                 alt="arrow left"
-                width={800}
-                height={800}
-                className="ml-2 rounded-full w-5 h-5"
+                className="ml-2 rounded-full w-8 h-8"
             />
             <img
                 src={arrowRight} 
                 alt="arrow right"
-                width={800}
-                height={800}
-                className="ml-2 rounded-full w-5 h-5"
+                className="ml-2 rounded-full w-8 h-8"
             />
             </div>
         </div>
