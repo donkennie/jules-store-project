@@ -8,10 +8,14 @@ const CategoriesCard = ({imgURL, name, number}) => {
         alt={name}
         className="w-[280px] h-280px"
         />
-        <div className="flex space-x-[39px] mt-[102px] items-end text-white font-bold md:absolute">
-          <p className="text-[152px] ">{number}</p> 
-           <p className="font-medium pb-[66px] "> {name} </p>
+        <div className="flex md:space-x-[39px] xl:mt-[74px] pt-[-90px] items-end text-white font-bold absolute">
+          <p className="md:text-[152px] text-[29px] font-bold pt-6 ">{number}</p> 
+           <p className="lg:font-medium xs:font-light xs:text-[0px] pt-4 md:pb-[66px] lg:pb-[66px] pb-[13px]"> {name} </p>
         </div>
+        {/* <div className="flex md:space-x-[39px]  xl:mt-[74px] pt-[-90px]  text-white absolute">
+          <p className="md:text-[152px] text-[29px] font-bold pt-6 ">{number}</p> 
+           <p className="lg:font-medium xs:font-light xs:text-[0px] pt-4 md:pb-[66px] lg:pb-[66px] pb-[13px]"> {name} </p>
+        </div> */}
 
 
     </div>

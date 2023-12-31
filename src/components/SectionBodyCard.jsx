@@ -8,9 +8,9 @@ const SectionBodyCard = ({imgURL, name, price}) => {
         alt={name}
         className="w-[280px] h-280px"
         />
-        <div className="text-white absolute p-3 space-y-2 mt-[12rem]">
-
-          <p className=" font-light text-sm">{name}</p> 
+        <div className="mt-[5rem] text-white absolute p-[6px] xs:mt-5 space-y-2 lg:mt-[12rem]">  
+        
+          <p className=" font-light xs:font-bold text-sm">{name}</p> 
 
           <div className=" flex justify-between">
            <p className="font-bold pb-9"> {price} </p>

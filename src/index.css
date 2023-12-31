@@ -23,6 +23,16 @@
   }
 }
 
+@keyframes slideAnimation {
+  0% {
+      transform: translate(0%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+
 @layer utilities {
   .padding {
     @apply sm:px-16 px-8 sm:py-24 py-12;
