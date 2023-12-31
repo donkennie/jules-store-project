@@ -9,7 +9,7 @@ import {
 
 const App = () => {
   return(
-  <main className="relative md:px-10 flex flex-col p-3 ">
+  <main className="relative md:px-10 flex flex-col p-3">
 
      <Nav/>
 
