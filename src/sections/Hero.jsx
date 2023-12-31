@@ -19,7 +19,7 @@ const Hero = () => {
 
       </div>
 
-      <div className="relative flex-1 flex md:flex-row justify-center items-center ">
+      <div className="relative flex-1 flex md:flex-row justify-center items-center">
         <img 
         src={image6}
         alt="header picture"
